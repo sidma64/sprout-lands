@@ -1,0 +1,2 @@
+﻿43993
+/home/sidma/deps/godot/godot
