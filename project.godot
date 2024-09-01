@@ -10,8 +10,13 @@ config_version=5
 
 [application]
 
+run/main_scene="res://main.tscn"
 config/features=PackedStringArray("4.3")
 
 [dotnet]
 
 project/assembly_name="UnnamedProject"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=3

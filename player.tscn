@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://c4or287gluktc"]
+
+[ext_resource type="Texture2D" uid="uid://d55sl0sfr3of" path="res://assets/Characters/Basic Charakter Actions.png" id="1_fdplr"]
+
+[node name="Player" type="Node2D"]
+
+[node name="Sprite" type="Sprite2D" parent="."]
+texture = ExtResource("1_fdplr")
+hframes = 2
+vframes = 12
+
+[node name="Body" type="CharacterBody2D" parent="."]
+
+[node name="Hitbox" type="CollisionPolygon2D" parent="Body"]
+polygon = PackedVector2Array(-4, 7, -4, 0, 4, 0, 4, 7)
